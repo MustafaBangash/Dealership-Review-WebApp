@@ -124,3 +124,41 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact_window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(103, 102, 105);
+    border-radius: 15px;
+    margin: 2% auto;
+    width: 80%;
+    max-width: 1200px; /* Limits the max width to prevent overstretching on large screens */
+    overflow: hidden; /* Ensures no spillover */
+}
+
+.dealership_image {
+    width: 50%; /* Makes the top image stretch to the width of the div */
+    height: auto;
+    margin-bottom: 20px; /* Adds space between images */
+}
+
+.contact_content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around; /* Balances space between image and text */
+    align-items: center;
+    padding: 0 20px; /* Padding on sides inside the flex container */
+}
+
+.contact_image {
+    width: 30%; /* Adjusted size for the contact image */
+    height: auto;
+    margin-right: 20px; /* Space between the image and the text */
+}
+
+.contact_info {
+    width: 60%; /* Adjusted width for the text block */
+    text-align: left;
+}
+
