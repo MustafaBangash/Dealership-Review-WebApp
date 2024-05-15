@@ -1,4 +1,4 @@
-### Project Architecture Summary
+# Project Architecture Summary
 
 ## Frontend:
 Technologies: HTML, CSS, Bootstrap, React
